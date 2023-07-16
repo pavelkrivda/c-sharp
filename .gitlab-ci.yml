@@ -23,7 +23,7 @@ build:
   script:
     - 'dotnet build --no-restore'
 
-tests:
+test:
   stage: test
   script:
 #    - 'dotnet test --no-restore --test-adapter-path:. --logger:"junit;LogFilePath=..\artifacts\{assembly}-test-result.xml;MethodFormat=Class;FailureBodyFormat=Verbose"'
